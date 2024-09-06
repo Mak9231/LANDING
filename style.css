@@ -1,5 +1,35 @@
 /* Write some CSS below */
 
+/* CARDS MEDIA QUERIES */
+@media (max-width: 800px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+    
+    .card-white {
+      width: auto;
+    }
+  }
+    
+  /* Container media queries */
+  @media (min-width: 500px) {
+    .container {
+      width: 400px;
+    }
+  }
+  
+  
+  @media (min-width: 800px) {
+    .container {
+      width: 600px;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .container {
+      width: 800px;
+    }
+  }
 body {
     font-family: Overpass;
     margin: 0;
@@ -19,6 +49,7 @@ p {
     width: 800px;
     margin: auto;
 }
+
 
 
 .banner {
@@ -56,6 +87,7 @@ p {
     background-color:#0D1EC6 ;
     color: white ;
 }
+
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -88,33 +120,3 @@ p {
     color: white;
 }
 
-/* CARDS MEDIA QUERIES */
-@media (max-width: 800px) {
-    .cards {
-      grid-template-columns: 1fr;
-    }
-    
-    .card-white {
-      width: auto;
-    }
-  }
-    
-  /* Container media queries */
-  @media (min-width: 500px) {
-    .container {
-      width: 400px;
-    }
-  }
-  
-  
-  @media (min-width: 800px) {
-    .container {
-      width: 600px;
-    }
-  }
-  
-  @media (min-width: 1000px) {
-    .container {
-      width: 800px;
-    }
-  }
